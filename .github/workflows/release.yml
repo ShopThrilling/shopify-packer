@@ -4,7 +4,6 @@ on: workflow_dispatch
 
 jobs:
   publish-gpr:
-    needs: build
     runs-on: ubuntu-latest
     permissions:
       packages: write
