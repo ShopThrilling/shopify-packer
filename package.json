@@ -1,11 +1,11 @@
 {
-  "name": "@hayes0724/shopify-packer",
+  "name": "@shopthrilling/shopify-packer",
   "version": "2.4.4",
   "bin": {
     "packer": "cli/index.js"
   },
-  "repository": "https://github.com/hayes0724/shopify-packer.git",
-  "bugs": "https://github.com/hayes0724/shopify-packer/issues",
+  "repository": "https://github.com/ShopThrilling/shopify-packer.git",
+  "bugs": "https://github.com/ShopThrilling/shopify-packer/issues",
   "homepage": "https://hayes0724.github.io/shopify-packer/",
   "author": "eric hayes <eric@hayesmarketing.io>",
   "license": "MIT",
@@ -105,7 +105,7 @@
     "bracketSpacing": false
   },
   "changelog": {
-    "repo": "@hayes0724/shopify-packer",
+    "repo": "@ShopThrilling/shopify-packer",
     "labels": {
       "feat": ":rocket: Feature",
       "fix": ":bug: Bug Fix",
