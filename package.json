@@ -28,6 +28,7 @@
     "lint": "eslint --ext .js src/** cli/**",
     "lint:fix": "eslint --ext .js --fix src/** cli/**",
     "semantic-release": "semantic-release",
+	"release": "",
     "docs": "cd docs && yarn deploy",
     "docs:start": "cd docs && yarn start"
   },
@@ -120,9 +121,7 @@
     "cacheDir": ".changelog"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest",
-    "access": "public"
+    "@shopthrilling:registry": "https://npm.pkg.github.com"
   },
   "release": {
     "plugins": [
