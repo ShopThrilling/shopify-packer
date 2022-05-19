@@ -62,7 +62,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@shopthrilling'
 
-      - run: npm ci
+      - run: yarn install --frozen-lockfile --ignore-scripts
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
