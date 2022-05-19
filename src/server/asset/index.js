@@ -56,7 +56,9 @@ module.exports = class AssetServer {
       return this.updates.add(`snippets/${path.basename(file)}`);
     }
     if (
-      (this._isCustomEntryPoint(file) || this._isLiquidFile(file) || this._isAssetFile(file)) &&
+      (this._isCustomEntryPoint(file) ||
+        this._isLiquidFile(file) ||
+        this._isAssetFile(file)) &&
       this._hasAssetChanged(file, info)
     ) {
       // Note: dist/assets is the "main" output dir and all webpack dirs are
